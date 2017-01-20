@@ -14,9 +14,7 @@ import com.google.common.collect.Lists;
  * 系统错误日志工具类，系统业务模块异常全部记录于此
  * <li>建议只使用此工具类统一访问使用“系统错误日志”
  * <li>尽量使用error(Exception e, Object... obj)方法，即把异常也记录下来
- * 
- * @author CP邱鸿霖
- * @time 2014年10月15日 下午12:30:53
+ *
  */
 public class SysErrorLogUtil {
 
